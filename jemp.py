@@ -21,9 +21,10 @@ def lev(level):
 # dealing with division
 def div():
     global n1, n2
-    while n1 % n2 != 0 and not n1 > n2:
+    if n1 % n2 > 0 == False or n1 < n2 == True:
         n1 = randint(1, x) 
         n2 = randint(1, x)
+        div()
 
 # Set question method
 def prob(oper):
