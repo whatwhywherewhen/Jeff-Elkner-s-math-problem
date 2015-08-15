@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 #-*-coding:utf8;-*-
 # Import module(s)
 print "\nJeff Elkner's Math Quiz"
