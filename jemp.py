@@ -121,6 +121,7 @@ def compute():
     questions = 0
     lev(level)
     for i in range(how_many):
+        print "\nQuestion ", questions + 1
         scoreboard['Total Asked'] += 1
         n1 = randint(1, x) 
         n2 = randint(1, x)
